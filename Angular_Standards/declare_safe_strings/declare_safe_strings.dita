@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+ PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="d8aAgd">
+  <title>Declare safe strings</title>
+  <body>
+    <table>
+      <tgroup cols="1">
+        <colspec colname="col1" colwidth="90.16%"></colspec>
+        <tbody>
+          <row>
+            <entry>
+              <p>
+                <u>Normal String declaration</u>
+              </p>
+              <p>private taskName: string;</p>
+              <p>// We can assign any string to taskName.</p>
+              <p>this.taskName = &apos;Quick task;</p>
+              <p>
+                <u>Safe string declaration</u>
+              </p>
+              <p>private taskName: &apos;Quick task&apos; | &apos;Simple editorial&apos;;</p>
+              <p>this. taskName = &apos;&apos;Quick task &apos;;</p>
+              <p>this.taskName = &apos;Simple editorial&apos;;</p>
+              <p>this. taskName = &apos;Workflow&apos;; // This will give the below error</p>
+              <p>Type &apos;&quot;&apos;Workflow&apos;&quot;&apos; is not assignable to type &apos;&quot;Quick task&quot; | &quot;Simple editorial&quot;&apos;</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

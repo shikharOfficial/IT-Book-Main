@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+ PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="d8aAfr">
+   <title>Avoid logic in templates</title>
+   <body>
+      <table>
+         <tgroup cols="1">
+            <colspec colname="col1" colwidth="90.16%"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>// template</p>
+                     <p>Status: Unavailable// component</p>
+                     <p>ngOnInit (): void {</p>
+                     <p>this.aliases=resp.value;</p>
+                     <p>}</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table>
+         <tgroup cols="1">
+            <colspec colname="col1" colwidth="90.16%"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>// template</p>
+                     <p>Status: Unavailable// component</p>
+                     <p>ngOnInit (): void {</p>
+                     <p>this.aliases=resp.value;</p>
+                     <p>this.isUnavailable = this.aliases === 'inActive' || 'hold';</p>
+                     <p>}</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

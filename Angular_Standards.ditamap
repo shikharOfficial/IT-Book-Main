@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map
+ PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+   <title>Angular Standards</title>
+   <topicref href="Angular_Standards/introduction/introduction.ditamap" navtitle="Introduction" format="ditamap"/>
+   <topicref href="Angular_Standards/use_angular_cli/use_angular_cli.ditamap" navtitle="Use Angular CLI" format="ditamap"/>
+   <topicref href="Angular_Standards/maintain_proper_folder_structure/maintain_proper_folder_structure.ditamap" navtitle="Maintain proper folder structure" format="ditamap"/>
+   <topicref href="Angular_Standards/follow_consistent_angular_coding_styles/follow_consistent_angular_coding_styles.ditamap" navtitle="Follow consistent Angular coding styles" format="ditamap"/>
+   <topicref href="Angular_Standards/use_es6_features/use_es6_features.ditamap" navtitle="Use ES6 features" format="ditamap"/>
+   <topicref href="Angular_Standards/use_trackby_along_with_ngfor/use_trackby_along_with_ngfor.ditamap" navtitle="Use trackBy along with ngFor" format="ditamap"/>
+   <topicref href="Angular_Standards/break_down_into_small_reusable_components/break_down_into_small_reusable_components.ditamap" navtitle="Break down into small reusable components" format="ditamap"/>
+   <topicref href="Angular_Standards/use_lazy_loading/use_lazy_loading.ditamap" navtitle="Use Lazy Loading" format="ditamap"/>
+   <topicref href="Angular_Standards/use_index_ts/use_index_ts.ditamap" navtitle="Use Index.ts" format="ditamap"/>
+   <topicref href="Angular_Standards/avoid_logic_in_templates/avoid_logic_in_templates.ditamap" navtitle="Avoid logic in templates" format="ditamap"/>
+   <topicref href="Angular_Standards/_cache_api_calls/_cache_api_calls.ditamap" navtitle=" Cache API calls" format="ditamap"/>
+   <topicref href="Angular_Standards/use_async_pipe_in_templates/use_async_pipe_in_templates.ditamap" navtitle="Use async pipe in templates" format="ditamap"/>
+   <topicref href="Angular_Standards/declare_safe_strings/declare_safe_strings.ditamap" navtitle="Declare safe strings" format="ditamap"/>
+   <topicref href="Angular_Standards/avoid_any_type_when_declaring_constants_and_variables/avoid_any_type_when_declaring_constants_and_variables.ditamap" navtitle="Avoid any type when declaring constants and variables" format="ditamap"/>
+   <topicref href="Angular_Standards/state_management/state_management.ditamap" navtitle="State management" format="ditamap"/>
+   <topicref href="Angular_Standards/use_cdk_virtual_scroll/use_cdk_virtual_scroll.ditamap" navtitle="Use CDK Virtual Scroll" format="ditamap"/>
+</map>

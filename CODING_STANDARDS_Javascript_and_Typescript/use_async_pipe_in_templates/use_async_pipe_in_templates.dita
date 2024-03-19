@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+ PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="d3aAfz">
+   <title>Use async pipe in templates</title>
+   <body>
+      <table>
+         <tgroup cols="1">
+            <colspec colname="col1" colwidth="90.16%"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>
+                        <b>Without Using async pipe</b>
+                     </p>
+                     <p>//template</p>
+                     <p>{{ text }}</p>
+                     <p>
+                        <b>Using async pipe</b>
+                     </p>
+                     <p>// template</p>
+                     <p>{{ text | async }}</p>
+                     <p>// component</p>
+                     <p>this.text = observable.pipe(</p>
+                     <p>map(value =&gt; value.item)</p>
+                     <p>);</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>
