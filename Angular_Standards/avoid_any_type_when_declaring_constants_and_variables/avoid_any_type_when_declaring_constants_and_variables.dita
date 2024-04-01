@@ -2,7 +2,9 @@
 <!DOCTYPE topic
  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="d8aAgh">
-  <title>Avoid any type when declaring constants and variables test 23 feb 2024</title>
+  <title>
+    <b>Avoid any type when declaring constants and variables test 23 feb 2024</b>
+  </title>
   <body>
     <table>
       <tgroup cols="1">

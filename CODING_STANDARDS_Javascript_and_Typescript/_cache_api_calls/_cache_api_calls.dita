@@ -3,5 +3,10 @@
  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="d3aAfx">
   <title>Cache  hello API calls</title>
-  <body></body>
+  <body>
+    <bodydiv>
+      <b>Test</b>
+    </bodydiv>
+    <image href="../../images/Screenshot from 2024-04-01 15-34-27.png"></image>
+  </body>
 </topic>
